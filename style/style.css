@@ -1,0 +1,129 @@
+/* .main{
+    border: 2px solid blue;
+} */
+
+.child{
+    display: flex;
+    flex-direction: row;
+    background-color: royalblue;
+    padding: 5px;
+}
+input{
+    border-radius: 5px;    
+}
+.header{
+    position:fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: lavender;
+    padding: 5px;
+    height: 60px;
+    justify-content: stretch;
+}
+#one{
+    height: 30px;
+    width: 120px;
+    color: gray;
+}
+span{
+    padding: 5px;
+    color: ivory;
+}
+
+#two{
+    /* padding: 5px; */
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    color: gray;
+    margin-top: 15px;
+} 
+#two:hover{
+    background-color: blue;
+    color:white;
+}
+
+marquee{
+    background-color:royalblue;
+    color: lightgreen;
+    margin: 0px 50px 0px 50px;
+    text-align: center;
+}
+.text{
+    margin: 0px 290px 0px 290px;
+}
+.counter{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    height: 350px;
+    /* width: 1516px; */
+    
+}
+.counterfirst{
+    color: white;
+    text-align: center;
+    /* margin: 150px 80px 150px 80px; */
+    margin: auto;
+}
+
+
+.whatfirst{
+    text-align: center;
+}
+.whatsecond, .whatthird{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.whatchild{
+    height: 250px;
+    width: 450px;
+    padding: 50px;
+    text-align: center;
+    background-color: lightgrey;
+}
+.what{
+    text-align: center;
+    margin-top: 20px;
+}
+.mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 40px 0px 0px;
+    padding: 10px 10px 0px 40px;
+}
+.hepamain, .housemain, .news{
+    padding: 0px 0px 0px 35px;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.hepaone, .houseone {
+    background-color: lightgrey;
+    margin: 10px;
+    height: 60px;
+    padding: 18px;
+    width: 450px;
+}
+.newsmain{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 0px 0px 0px;
+    height: 250px;
+    width: 250px;
+}
+.mains{
+    display: flex;
+    flex-direction: row;
+    
+}
+a{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
